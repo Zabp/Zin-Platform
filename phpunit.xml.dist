@@ -1,0 +1,1 @@
+<?xml version="1.0"?><phpunit bootstrap="tests/bootstrap/bootstrap.php" colors="true"><testsuites><testsuite name="multisite"><directory suffix="Test.php">tests/multisite</directory></testsuite></testsuites><php><const name="WP_TESTS_MULTISITE" value="1"/></php></phpunit>

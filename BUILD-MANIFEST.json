@@ -1,0 +1,283 @@
+{
+  "version": "1.1.1",
+  "build": "hardening",
+  "source": "uploaded and reconstructed Platform 1.1 sources",
+  "files": [
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "6e5422d8db84c911a8a2ed390b4cbde750cbf8a535fa863f89690e3b83b01bd4"
+    },
+    {
+      "file": "README.md",
+      "sha256": "f555e07a8a1bf690b97a025883b356686e83012d1b2a165b2760e7724270ac42"
+    },
+    {
+      "file": "STAGING-TESTS.md",
+      "sha256": "23f204b6cdc83fbd0bcea1fdc1a7154480133fc6d7d0d27f87487b6041a3fc36"
+    },
+    {
+      "file": "assets/admin/control-center.css",
+      "sha256": "676411476d8d3d7461dc8993bbc026318a9cf72e67991562733d8eefa0be5919"
+    },
+    {
+      "file": "assets/admin/control-center.js",
+      "sha256": "592d127f4f180b1fa071d19e2e4f1262ddc92416ef9463d742fc4ecd7cc3539f"
+    },
+    {
+      "file": "bin/run-multisite-tests.sh",
+      "sha256": "0583cced0bd84a5c780c3ca95df157a02a620ddfe281aaaf1ca111eddc9f9be9"
+    },
+    {
+      "file": "docs/audit/MULTISITE-AUDIT-1.1.1.json",
+      "sha256": "9ecd79932fac47b3be2292ac3db71a4d03fb0aa21e1f077c92068baf026fa759"
+    },
+    {
+      "file": "docs/audit/MULTISITE-AUDIT-1.1.1.md",
+      "sha256": "86bcedc2e5bec1be8b0a26db0fe6734506711fcda328f98d4d47917c94d14176"
+    },
+    {
+      "file": "docs/audit/PLATFORM-1.0-CODE-AUDIT.json",
+      "sha256": "4ed0f3a4c06e4be785cfbd1556a6e6a5a4dd31db24897c289d5a571733336323"
+    },
+    {
+      "file": "docs/audit/PLATFORM-1.0-CODE-AUDIT.md",
+      "sha256": "eb8d4600fc51264cbad1f87e131e9907dcc6405b2441c92bd2e0c71798ebef53"
+    },
+    {
+      "file": "docs/audit/SECURITY-AUDIT-1.1.1.json",
+      "sha256": "7f3c33ed67e28cb7fd0a986f81278ac88c60e83f96f7aa7fd2974fca32313f87"
+    },
+    {
+      "file": "docs/audit/SECURITY-AUDIT-1.1.1.md",
+      "sha256": "2ce28b9707ef46f6ffb72eeca4d00c124539d8621a7c122a503c029aa24cd547"
+    },
+    {
+      "file": "phpunit.xml.dist",
+      "sha256": "c81af63d4945387f39f48bc41b7fc1bd60ab476fdfafbc26da645704b50f8f66"
+    },
+    {
+      "file": "src/Admin/AssetController.php",
+      "sha256": "3031d174a51fde4ac709645e6c9d2910dcb20a073c4e42d052b5746a6da985fd"
+    },
+    {
+      "file": "src/Admin/ControlCenter.php",
+      "sha256": "05f3a3db5254ddfd09365f6b4bd8b1c659e1e6e46af26387640e5504e63bdb7d"
+    },
+    {
+      "file": "src/Admin/FleetPage.php",
+      "sha256": "77b3121ab7da9dc1ba4dc2677aa0c1a79efa9f8e01eebb646650bdabce938915"
+    },
+    {
+      "file": "src/Admin/SecurityPage.php",
+      "sha256": "8db9af1ddda8cb88b3adba13e417535a06243fab1008d5c7632859a89e77af28"
+    },
+    {
+      "file": "src/Assets/AssetInventory.php",
+      "sha256": "d5cc09c92ebca08da3966cba90da680ba2cba041e486e4fd9e3c3518d6888e5d"
+    },
+    {
+      "file": "src/Assets/AssetsManager.php",
+      "sha256": "6e5147eff1b0893c6a750870cb6add6b6b2b4314de11c39d43c3a296df2c551e"
+    },
+    {
+      "file": "src/Assets/DependencyGraph.php",
+      "sha256": "52e029d68d2cb5cff919ce2d27ae247f2d655d6f4cba44151e412331e977a9ce"
+    },
+    {
+      "file": "src/Assets/OptimizationEngine.php",
+      "sha256": "df5c0b84222118065f47274ed4bb91a10d9841ab0305839ee7648ef961241c26"
+    },
+    {
+      "file": "src/Assets/Rules/RuleEngine.php",
+      "sha256": "d9cafa5e89d38ba815096e49336a3c7946b81d9060acb43ab9cc36be30a1cbc7"
+    },
+    {
+      "file": "src/Assets/Rules/RuleRepository.php",
+      "sha256": "693c622b7588e833e8951b8ae3ca8e31214316669a1b5fe364a06aa55e0381e5"
+    },
+    {
+      "file": "src/Assets/Rules/RuleValidator.php",
+      "sha256": "d8494679bea7f991dbb1c70e3377da056caa585414d805a9a2233852029a06c8"
+    },
+    {
+      "file": "src/Assets/SimulationEngine.php",
+      "sha256": "c2c62b3d91bb6e955a5b6142cf672498fee538d2a76d98118be1335c20cc3bdf"
+    },
+    {
+      "file": "src/Assets/SnapshotManager.php",
+      "sha256": "5e76e69bb008fc05e9d1d901f3be47151a8918da4eff821b2c31c70dbaed45ae"
+    },
+    {
+      "file": "src/Compatibility/AdapterManager.php",
+      "sha256": "279098a5da6dff16685654bbc7a4122e3b3574abcc64c25c13f576e0381753e5"
+    },
+    {
+      "file": "src/Compatibility/Adapters/AamAdapter.php",
+      "sha256": "cb9e46b6b4da1944190d4031fed16d12250b872436b0da95297f5dede7578baa"
+    },
+    {
+      "file": "src/Compatibility/Adapters/AbstractAdapter.php",
+      "sha256": "3e73a79187004bae42cf5e2ebda8e4e641b1d67666546456bcb58bd4afe71c90"
+    },
+    {
+      "file": "src/Compatibility/Adapters/BbPressAdapter.php",
+      "sha256": "f1a76b8e6e2c352bed220d1fa0227d62c068fc01b6719d7e881c3cfd5f086b32"
+    },
+    {
+      "file": "src/Compatibility/Adapters/BuddyPressAdapter.php",
+      "sha256": "7651673fc0228d7bd72e64a73adddc8cbf6f27d97d73b3df2fb9587dfac476b4"
+    },
+    {
+      "file": "src/Compatibility/Adapters/GamiPressAdapter.php",
+      "sha256": "19918a0588a139c28ba2081010b9b8a0254d770fea44c768647158d1506e4d89"
+    },
+    {
+      "file": "src/Compatibility/Adapters/WooCommerceAdapter.php",
+      "sha256": "30d5ca71987af65a1d2f2fb14efd7a2e287740383e8542797792f64e919863f9"
+    },
+    {
+      "file": "src/Compatibility/Adapters/WordfenceAdapter.php",
+      "sha256": "7349ec818d3ee15a2eed22b910b3b5a471309c6efbd062838a69a7eaa32b44d2"
+    },
+    {
+      "file": "src/Compatibility/PluginRegistry.php",
+      "sha256": "681829c2e6c50ffe44319d5ab02bca8f9595eced0636b7e5d2e4ae0fe03589de"
+    },
+    {
+      "file": "src/Contracts/CompatibilityAdapter.php",
+      "sha256": "70ad45dab074d442af0b2a1583d0b155b3ac629f837eda7fe8675ebe4bcab519"
+    },
+    {
+      "file": "src/Contracts/ExchangeContract.php",
+      "sha256": "ef441fd96c1594c14885f0085c89de6299d80ce94a0b9a1660e6ba32066a7b93"
+    },
+    {
+      "file": "src/Contracts/LedgerContract.php",
+      "sha256": "db86171b41d294a4ffde415f5bf725c03babca42e7b22979180c9d313509d5e6"
+    },
+    {
+      "file": "src/Contracts/ServiceProvider.php",
+      "sha256": "51ccc43c04a63a55655e85bd50518ca585181903ff1d0d2a6826a2494ac14633"
+    },
+    {
+      "file": "src/Contracts/WalletContract.php",
+      "sha256": "61a9f54ebdcebc6365dc3d6caab9ea8e1710452667891464c64cad8065c9edb0"
+    },
+    {
+      "file": "src/Core/Activator.php",
+      "sha256": "5c65d4e57729630b9d2a350d663ddb29761707d095e38a6e8cf301aa3fa71b3f"
+    },
+    {
+      "file": "src/Core/Autoloader.php",
+      "sha256": "f3f229b5ed76c1e3e577baf7b30d499a16a2c5a72fde774f24b0e9e00c30767c"
+    },
+    {
+      "file": "src/Core/Container.php",
+      "sha256": "9cee49f7282f5bd6faf3e56c85db36c29ea07d60c510c3bc07cb2b691f2881b3"
+    },
+    {
+      "file": "src/Core/Deactivator.php",
+      "sha256": "339cdc50f21377555131f61f9bedd930038c0075ebee67b4a1251fcc54172a81"
+    },
+    {
+      "file": "src/Core/Multisite.php",
+      "sha256": "2da98184f702cba6476e36a33b8a093ceef655ad72ca28d390696106fc487666"
+    },
+    {
+      "file": "src/Core/Plugin.php",
+      "sha256": "a6a753fbb151294a3830007620bc2b712367d146665afe6e3d7276159f0f43ce"
+    },
+    {
+      "file": "src/Database/AtomicLock.php",
+      "sha256": "21819d9b0f0156e38ec836efc08583cbfa59728a9ba437e980ccfba47ffcdbff"
+    },
+    {
+      "file": "src/Diagnostics/DiagnosticsService.php",
+      "sha256": "6939afe7f2352661a6b5d6c3775e07fa5a9f88589a772f3c484742ddea0666e1"
+    },
+    {
+      "file": "src/Diagnostics/HealthRegistry.php",
+      "sha256": "ec833098895a83aaa42883efc06bfe5164f35e3f2fe7c40f2c1e4654e5abe737"
+    },
+    {
+      "file": "src/Diagnostics/IntegrationHealth.php",
+      "sha256": "c0477e3f4e5f9ae314d1f889332ae6a9bb073a7d6e9f76b5e4c6f1d747e6ef5a"
+    },
+    {
+      "file": "src/Diagnostics/NetworkDiagnostics.php",
+      "sha256": "b9ef941d5f3600cbfe62759c239b82ad0aef5dee2dae6d540b471f1edb1825d3"
+    },
+    {
+      "file": "src/Fleet/FleetRepository.php",
+      "sha256": "016510bbb425429364709c7c98f6d53246add8576f688243851286acd430bc3c"
+    },
+    {
+      "file": "src/Fleet/FleetService.php",
+      "sha256": "8f9976c46e72c42c0b6bc41ae8424b5369735bc8f2a08c8939bacc123048e29d"
+    },
+    {
+      "file": "src/Jobs/JobLock.php",
+      "sha256": "bbfeb2626bdc61e972b8338b66977e3b81b5a7b45b07dd1d4adbb8f33abbe685"
+    },
+    {
+      "file": "src/Jobs/NetworkAggregationJob.php",
+      "sha256": "9d920f5a3a80ec7a4df8fe2aa26d3f4b75c87f1449e964751c22920d389ee49f"
+    },
+    {
+      "file": "src/Logging/JobLogger.php",
+      "sha256": "67b3305fc6c2f7911222f94764140fbce11ce7018d5b449545800a4f09234020"
+    },
+    {
+      "file": "src/Modules/ModuleRegistry.php",
+      "sha256": "7fc302cae8c40cb14881e709fdcc85bf7f07c6f94b2e300b8337bf8ecacede16"
+    },
+    {
+      "file": "src/Network/AggregationController.php",
+      "sha256": "4dd9e7a7ba68bd54f2fd89f3df78915dd9b35b62159ea5cfd2d6a1961646c372"
+    },
+    {
+      "file": "src/Network/AssetPolicy.php",
+      "sha256": "90711597f3a13d2d57a7b23ad5284a6f27c8afe5614151b6410dc7d6679be6e1"
+    },
+    {
+      "file": "src/Network/PolicyController.php",
+      "sha256": "1b406aa2fbf321b98c8724bdcbf1a6028c6d03812389ab66d65966af63bd7535"
+    },
+    {
+      "file": "src/Network/SettingsManager.php",
+      "sha256": "c1dc21faa81214da3addb9f65e1498099c58c4a8df86743128dbb8315deb7130"
+    },
+    {
+      "file": "src/Performance/PerformanceService.php",
+      "sha256": "1968b71b0c9500260810adfa199cc9760749ba068d67e52818489ff871f75a2a"
+    },
+    {
+      "file": "src/Security/AccessManager.php",
+      "sha256": "f73244db9d86323bd6f39f53709285055875f2a198b2d906689e7cf4b693f5e9"
+    },
+    {
+      "file": "src/Security/CapabilityAudit.php",
+      "sha256": "00ac9e5646fca4658f279ea9c505fc616e75dcff4e1d92a2799bb97bb1e5fee1"
+    },
+    {
+      "file": "src/Security/LoginAudit.php",
+      "sha256": "578e78f5dbf7fe8256a122f6fd78085fea65a8c09878711e8ace3d6d733454d4"
+    },
+    {
+      "file": "src/Security/SecurityService.php",
+      "sha256": "09a58bc53521df3a5fa9139fb1aa9b34531c9bbdd94ee150c3a6638fe7edbd0c"
+    },
+    {
+      "file": "tests/bootstrap/bootstrap.php",
+      "sha256": "e3f685c63a0f6e641ae985f30127bdc0cae59d60c7f994a80553b143621b3691"
+    },
+    {
+      "file": "tests/multisite/PlatformMultisiteTest.php",
+      "sha256": "9d077558eef1af022b944453572546c9932528d23a938abc48567d36e1e31ce8"
+    },
+    {
+      "file": "zincelestial-platform.php",
+      "sha256": "d8fbdcf50d313e8e3cef51381b386474ff7f05ec7a9ac2488887c5c4822fa2d3"
+    }
+  ]
+}
